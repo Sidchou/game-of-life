@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+    <title> Conway's Game of Life </title
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <h1> Conway's Game of Life </h1>
+         <div class="control">
+      <input  id="stButton" type="submit" value="Start">
+          <a>	&nbsp;&nbsp;	</a>
+      <input  id="reButton" type="submit" value="Reset">
+         <a>	&nbsp;&nbsp;	</a>
+      <input  id="clButton" type="submit" value="Clear">
+        </div>
+        <div id="myCanvas"></div>
+          </div>
+    </div>
+  <div class="container content">
+        <h1> How to </h1>
+      <div class = "item">
+        <p>
+        Click start to start simulation </br></br>
+        Click pause to pause simulation </br></br>
+        Click reset to rendomize the cells </br></br>
+        Click clear to set all cells to white </br></br>
+        Click the cells to switch the state of the cells </br>
+        </p>
+      </div>
+    <div>
+        <p>
+          <a href = https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life> What is game of life? <a>
+        </p>
+    </div>
+
+  </div>
+  <script src="sketch.js"></script>
+  </body>
+</html>
